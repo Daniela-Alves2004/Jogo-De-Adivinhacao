@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Overpass:wght@400;700&family=Quicksand:wght@300;600&family=Red+Hat+Display:wght@500;700;800&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100vh;
+    height: 100vh;
+    background-color: #000000;
+    
+}
+
+.Conteiner-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left:65%;
+    top:25%;
+    height: 50vh;
+    width: 55vh;
+    background-color: transparent;
+    border-radius: 18%;
+    border: 2px solid #5c00f0 ;
+
+}
+h1{
+    position: relative;
+    bottom: 20%;
+    color: #7f0dc1  ;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 27px;
+
+}
+form{
+    position: relative;
+    bottom: 5%;
+    right: 10%;
+}
+input{
+    border:none;
+    border-radius: 15%;
+    padding: 5% 20%;
+    background-color: transparent;
+    color: #3f0063 ;
+    border: 2px solid #5c00f0 ;
+    font-family: 'Quicksand', sans-serif;
+    font-weight:600;
+
+
+}
+.botao-confirma{
+    border: none;
+    border-radius: 15%;
+    padding: 5% 15%;
+    background-color: #5c00f0 ;
+    color: #FFFFFF ;
+    font-family: 'Quicksand', sans-serif;
+    font-weight:600;
+    position: relative;
+    top:10%
+}
