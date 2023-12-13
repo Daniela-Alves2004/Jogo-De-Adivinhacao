@@ -8,10 +8,7 @@ const btn = document.querySelector('#send')
 btn.addEventListener("click", function (e) {
     e.preventDefault();
 
-    const name = document.querySelector("#name");
-    name.addEventListener("change", function () {
-        chute = name.value;
-    });
+    chute = document.querySelector('#name').value;
 
 
     if (chute == numeroSecreto) {
@@ -24,11 +21,7 @@ btn.addEventListener("click", function (e) {
             alert(`O número secreto é maior que ${chute}`)
         }
         tentativas++;
-    }
-
-
-    
-    
+    }   
 })
 
 
